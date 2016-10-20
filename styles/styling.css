@@ -1,56 +1,45 @@
 * {
-    font-family: 'Roboto', sans-serif;
-}
+    font-family: 'Roboto', sans-serif;  }
 
 body {
     width: 625px;
     margin: auto;
-    background-color: #2f3235;
-}
+    background-color: #2f3235;  }
 
 table {
-    border-collapse: collapse;
-}
+    border-collapse: collapse;  }
 
 tr {
     background-color: #FFF;
-    height: 40px;
-}
+    height: 40px;  }
 
 tr:nth-child(even) {
-    background-color: #eaeaea;
-}
+    background-color: #eaeaea;  }
 
 tr:first-child {
     background-color: #3d7128;
     color: white;
     height: 25px;
-    font-size: 10px;
-}
+    font-size: 10px;  }
 
 tr:first-child td {
-    font-weight: bold;
-}
+    font-weight: bold;  }
 
 td {
     width: 100px;
     text-align: center;
-    font-weight: bold;
-}
+    font-weight: bold;  }
 
 td:nth-child(2) {
     width: 400px;
     text-align: left;
     padding-left: 20px;
-    font-weight: normal;
-}
+    font-weight: normal;  }
 
 .left {
     float: left;
-    padding: 10px 10px 0px 10px;
-}
+    padding: 10px 10px 0px 10px;  }
 
 .title {
     color: white;
-    padding-top: 10px;
-}
+    padding-top: 10px;  }

@@ -1,6 +1,8 @@
 var score,
     j = 10;
+
 $(document).ready(function doIt() {
+
         var output = $.ajax({
             url: 'https://sportsop-soccer-sports-open-data-v1.p.mashape.com/v1/leagues/serie-a/seasons/15-16/topscorers',
             type: 'GET',
@@ -19,7 +21,6 @@ $(document).ready(function doIt() {
                 content += "</table>";
 
                 $('#here_table').append(content);
-
             },
             error: function (err) {
                 alert(err);
@@ -28,6 +29,5 @@ $(document).ready(function doIt() {
                 xhr.setRequestHeader("X-Mashape-Authorization", "kxSXmUymofmshFHhhKxWOSJpqJsJp1I3zNnjsnqKwhITAiC1zw");
             }
         });
-
     }
 );
